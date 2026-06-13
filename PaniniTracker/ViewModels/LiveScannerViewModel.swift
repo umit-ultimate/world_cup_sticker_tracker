@@ -75,6 +75,8 @@ final class LiveScannerViewModel {
         let status: Status = isMissing ? .needed : .notNeeded
         latest = Detection(code: code, country: country, status: status)
 
+        saveToBasket(code: code, neededByExporter: isMissing)
+
         if status == .needed {
             AudioServicesPlaySystemSound(1057) // short "Tink"
             haptic.notificationOccurred(.success)
@@ -88,5 +90,25 @@ final class LiveScannerViewModel {
             predicate: #Predicate { $0.countryCode == countryCode }
         )
         return (try? context.fetch(descriptor))?.first?.missingNumbers ?? []
+    }
+
+    // Upserts a ScanBasketItem: update timestamps/needed flag if exists, insert if new.
+    private func saveToBasket(code: StickerCodeOCRParser.ParsedCode, neededByExporter: Bool) {
+        guard let context = modelContext else { return }
+        let id = code.id  // e.g. "AUT-20"
+        let descriptor = FetchDescriptor<ScanBasketItem>(
+            predicate: #Predicate { $0.stickerID == id }
+        )
+        if let existing = (try? context.fetch(descriptor))?.first {
+            existing.lastScannedAt = Date()
+            existing.neededByExporter = neededByExporter
+        } else {
+            context.insert(ScanBasketItem(
+                countryCode: code.countryCode,
+                number: code.number,
+                neededByExporter: neededByExporter
+            ))
+        }
+        try? context.save()
     }
 }

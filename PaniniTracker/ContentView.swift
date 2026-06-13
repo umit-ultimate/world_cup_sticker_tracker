@@ -18,6 +18,8 @@ struct ContentView: View {
     @State private var alertMessage = ""
     @State private var showingAlert = false
 
+    @State private var showingScanBasket = false
+
     #if DEBUG
     @State private var showingOCRTest = false
     @State private var showingLiveScanner = false
@@ -107,6 +109,9 @@ struct ContentView: View {
                 Button("OK") {}
             } message: {
                 Text(alertMessage)
+            }
+            .sheet(isPresented: $showingScanBasket) {
+                ScanBasketView()
             }
             #if DEBUG
             .sheet(isPresented: $showingOCRTest) {
@@ -252,6 +257,15 @@ struct ContentView: View {
             .buttonStyle(.bordered)
             .tint(.secondary)
 
+            Button {
+                showingScanBasket = true
+            } label: {
+                Label("Scan Basket", systemImage: "basket")
+                    .frame(maxWidth: .infinity)
+            }
+            .buttonStyle(.bordered)
+            .tint(.indigo)
+
             #if DEBUG
             Button {
                 dumpAlbumState()
@@ -376,20 +390,4 @@ struct ContentView: View {
         .modelContainer(for: CountryMissingState.self, inMemory: true)
 }
 
-// MARK: - URL Identifiable (for sheet(item:))
-
-extension URL: @retroactive Identifiable {
-    public var id: String { absoluteString }
-}
-
-// MARK: - Share sheet
-
-private struct ShareSheet: UIViewControllerRepresentable {
-    let url: URL
-
-    func makeUIViewController(context: Context) -> UIActivityViewController {
-        UIActivityViewController(activityItems: [url], applicationActivities: nil)
-    }
-
-    func updateUIViewController(_ uvc: UIActivityViewController, context: Context) {}
-}
+// ShareSheet and URL+Identifiable are defined in Views/ShareSheet.swift

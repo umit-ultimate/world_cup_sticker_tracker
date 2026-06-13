@@ -7,6 +7,6 @@ struct PaniniTrackerApp: App {
         WindowGroup {
             RootView()
         }
-        .modelContainer(for: CountryMissingState.self)
+        .modelContainer(for: [CountryMissingState.self, ScanBasketItem.self])
     }
 }
