@@ -1,0 +1,36 @@
+# Xcode
+#
+# Reference: https://github.com/github/gitignore/blob/main/Swift.gitignore
+
+# Build placeholders
+build/
+DerivedData/
+
+# Xcode temporary files and user state
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+xcuserdata/
+
+# Personal Xcode settings
+*.xcuserstate
+
+# Xcode workspace and shared data (if you want to ignore user state but keep shared data)
+## User settings
+/*.xcuserdatad/
+/*.xcworkspace/
+!/*.xcodeproj/project.pbxproj
+!/*.xcodeproj/xcshareddata/
+!/*.xcworkspace/contents.xcworkspacedata
+/*.xcworkspace/xcuserdata/
+/*.xcodeproj/xcuserdata/
+
+# Swift Package Manager
+.build/
+
+# macOS
+.DS_Store
+
+# Claude / Agent files
+.claude/

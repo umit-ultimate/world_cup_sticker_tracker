@@ -1,0 +1,1184 @@
+CoreData: error: Failed to stat path '/var/mobile/Containers/Data/Application/638B5A3F-EF43-4429-A03D-C9601E0F617A/Library/Application Support/default.store', errno 2 / No such file or directory.
+CoreData: error: Failed to stat path '/var/mobile/Containers/Data/Application/638B5A3F-EF43-4429-A03D-C9601E0F617A/Library/Application Support/default.store', errno 2 / No such file or directory.
+CoreData: error: Executing as effective user 501
+CoreData: error: Executing as effective user 501
+CoreData: error:   Sandbox access to file-write-create denied
+CoreData: error:   Sandbox access to file-write-create denied
+CoreData: error: Failed to statfs file; errno 2 / No such file or directory.
+CoreData: error: Failed to statfs file; errno 2 / No such file or directory.
+CoreData: error: Information for file system
+CoreData: error: Information for file system
+CoreData: error: ---------------------------
+CoreData: error: ---------------------------
+CoreData: error:   File system type: 0
+CoreData: error:   File system type: 0
+CoreData: error:   File system flags: 0
+CoreData: error:   File system flags: 0
+CoreData: error:   Total data blocks: 0
+CoreData: error:   Total data blocks: 0
+CoreData: error:   Free data blocks: 0
+CoreData: error:   Free data blocks: 0
+CoreData: error:   Free blocks for nonsuperuser: 0
+CoreData: error:   Free blocks for nonsuperuser: 0
+CoreData: error:   Total i-nodes: 0
+CoreData: error:   Total i-nodes: 0
+CoreData: error:   File system ID: 0,
+0
+CoreData: error:   File system ID: 0,
+0
+CoreData: error:   Free i-nodes: 0
+CoreData: error:   Free i-nodes: 0
+CoreData: error:   Owner UID: 0
+CoreData: error:   Owner UID: 0
+CoreData: error:   Filesystem type name:
+CoreData: error:   Filesystem type name: 		
+CoreData: error:   Mount on name:
+CoreData: error:   Mount on name: 			
+CoreData: error:   Mount from name:
+CoreData: error:   Mount from name: 		
+CoreData: error: Failed to stat path '/var/mobile/Containers/Data/Application/638B5A3F-EF43-4429-A03D-C9601E0F617A/Library/Application Support', errno 2 / No such file or directory.
+CoreData: error: Failed to stat path '/var/mobile/Containers/Data/Application/638B5A3F-EF43-4429-A03D-C9601E0F617A/Library/Application Support', errno 2 / No such file or directory.
+CoreData: error: Executing as effective user 501
+CoreData: error: Executing as effective user 501
+CoreData: error:   Sandbox access to file-write-create denied
+CoreData: error:   Sandbox access to file-write-create denied
+CoreData: error: Failed to statfs file; errno 2 / No such file or directory.
+CoreData: error: Failed to statfs file; errno 2 / No such file or directory.
+CoreData: error: Information for file system
+CoreData: error: Information for file system
+CoreData: error: ---------------------------
+CoreData: error: ---------------------------
+CoreData: error:   File system type: 0
+CoreData: error:   File system type: 0
+CoreData: error:   File system flags: 0
+CoreData: error:   File system flags: 0
+CoreData: error:   Total data blocks: 0
+CoreData: error:   Total data blocks: 0
+CoreData: error:   Free data blocks: 0
+CoreData: error:   Free data blocks: 0
+CoreData: error:   Free blocks for nonsuperuser: 0
+CoreData: error:   Free blocks for nonsuperuser: 0
+CoreData: error:   Total i-nodes: 0
+CoreData: error:   Total i-nodes: 0
+CoreData: error:   File system ID: 0,
+0
+CoreData: error:   File system ID: 0,
+0
+CoreData: error:   Free i-nodes: 0
+CoreData: error:   Free i-nodes: 0
+CoreData: error:   Owner UID: 0
+CoreData: error:   Owner UID: 0
+CoreData: error:   Filesystem type name:
+CoreData: error:   Filesystem type name: 		
+CoreData: error:   Mount on name:
+CoreData: error:   Mount on name: 			
+CoreData: error:   Mount from name:
+CoreData: error:   Mount from name: 		
+CoreData: error: Executing as effective user 501
+CoreData: error: Executing as effective user 501
+CoreData: error: Information for /var/mobile/Containers/Data/Application/638B5A3F-EF43-4429-A03D-C9601E0F617A/Library
+CoreData: error: Information for /var/mobile/Containers/Data/Application/638B5A3F-EF43-4429-A03D-C9601E0F617A/Library
+CoreData: error: ---------------------------
+CoreData: error: ---------------------------
+CoreData: error:   File Device ID: 0
+CoreData: error:   File Device ID: 0
+CoreData: error:   Device ID: 16777226
+CoreData: error:   Device ID: 16777226
+CoreData: error:   File Size: 192 bytes
+CoreData: error:   File Size: 192 bytes
+CoreData: error:   File inode: 85674866
+CoreData: error:   File inode: 85674866
+CoreData: error:   File user ID: 501
+CoreData: error:   File user ID: 501
+CoreData: error:   File group ID: 501
+CoreData: error:   File group ID: 501
+CoreData: error:   File Permissions:
+CoreData: error:   File Permissions: 	
+CoreData: error: d
+CoreData: error: d
+CoreData: error: 755
+CoreData: error: 755
+CoreData: error:   file is not a symbolic link
+CoreData: error:   file is not a symbolic link
+CoreData: error:   Sandbox access to file-write-create allowed
+CoreData: error:   Sandbox access to file-write-create allowed
+CoreData: error: Information for file system
+CoreData: error: Information for file system
+CoreData: error: ---------------------------
+CoreData: error: ---------------------------
+CoreData: error:   File system type: 0x1a
+CoreData: error:   File system type: 0x1a
+CoreData: error:   File system flags: 0x14809098
+CoreData: error:   File system flags: 0x14809098
+CoreData: error:   MNT_JOURNALED
+CoreData: error:   MNT_JOURNALED
+CoreData: error:   Total data blocks: 31217477
+CoreData: error:   Total data blocks: 31217477
+CoreData: error:   Free data blocks: 824433
+CoreData: error:   Free data blocks: 824433
+CoreData: error:   Free blocks for nonsuperuser: 824433
+CoreData: error:   Free blocks for nonsuperuser: 824433
+CoreData: error:   Total i-nodes: 33530469
+CoreData: error:   Total i-nodes: 33530469
+CoreData: error:   File system ID: 0x100000a,
+0x1a
+CoreData: error:   File system ID: 0x100000a,
+0x1a
+CoreData: error:   Free i-nodes: 32977320
+CoreData: error:   Free i-nodes: 32977320
+CoreData: error:   Owner UID: 0
+CoreData: error:   Owner UID: 0
+CoreData: error:   Filesystem type name: 		apfs
+CoreData: error:   Filesystem type name: 		apfs
+CoreData: error:   Mount on name: 			/private/var/mobile
+CoreData: error:   Mount on name: 			/private/var/mobile
+CoreData: error:   Mount from name: 		/dev/disk1s8
+CoreData: error:   Mount from name: 		/dev/disk1s8
+CoreData: error: Executing as effective user 501
+CoreData: error: Executing as effective user 501
+CoreData: error: Information for /var/mobile/Containers/Data/Application/638B5A3F-EF43-4429-A03D-C9601E0F617A
+CoreData: error: Information for /var/mobile/Containers/Data/Application/638B5A3F-EF43-4429-A03D-C9601E0F617A
+CoreData: error: ---------------------------
+CoreData: error: ---------------------------
+CoreData: error:   File Device ID: 0
+CoreData: error:   File Device ID: 0
+CoreData: error:   Device ID: 16777226
+CoreData: error:   Device ID: 16777226
+CoreData: error:   File Size: 224 bytes
+CoreData: error:   File Size: 224 bytes
+CoreData: error:   File inode: 85674864
+CoreData: error:   File inode: 85674864
+CoreData: error:   File user ID: 501
+CoreData: error:   File user ID: 501
+CoreData: error:   File group ID: 501
+CoreData: error:   File group ID: 501
+CoreData: error:   File Permissions:
+CoreData: error:   File Permissions: 	
+CoreData: error: d
+CoreData: error: d
+CoreData: error: 755
+CoreData: error: 755
+CoreData: error:   file is not a symbolic link
+CoreData: error:   file is not a symbolic link
+CoreData: error:   Sandbox access to file-write-create denied
+CoreData: error:   Sandbox access to file-write-create denied
+CoreData: error: Executing as effective user 501
+CoreData: error: Executing as effective user 501
+CoreData: error: Information for /var/mobile/Containers/Data/Application
+CoreData: error: Information for /var/mobile/Containers/Data/Application
+CoreData: error: ---------------------------
+CoreData: error: ---------------------------
+CoreData: error:   File Device ID: 0
+CoreData: error:   File Device ID: 0
+CoreData: error:   Device ID: 16777226
+CoreData: error:   Device ID: 16777226
+CoreData: error:   File Size: 12640 bytes
+CoreData: error:   File Size: 12640 bytes
+CoreData: error:   File inode: 110
+CoreData: error:   File inode: 110
+CoreData: error:   File user ID: 501
+CoreData: error:   File user ID: 501
+CoreData: error:   File group ID: 501
+CoreData: error:   File group ID: 501
+CoreData: error:   File Permissions:
+CoreData: error:   File Permissions: 	
+CoreData: error: d
+CoreData: error: d
+CoreData: error: 755
+CoreData: error: 755
+CoreData: error:   file is not a symbolic link
+CoreData: error:   file is not a symbolic link
+CoreData: error:   Sandbox access to file-write-create denied
+CoreData: error:   Sandbox access to file-write-create denied
+CoreData: error: Executing as effective user 501
+CoreData: error: Executing as effective user 501
+CoreData: error: Information for /var/mobile/Containers/Data
+CoreData: error: Information for /var/mobile/Containers/Data
+CoreData: error: ---------------------------
+CoreData: error: ---------------------------
+CoreData: error:   File Device ID: 0
+CoreData: error:   File Device ID: 0
+CoreData: error:   Device ID: 16777226
+CoreData: error:   Device ID: 16777226
+CoreData: error:   File Size: 160 bytes
+CoreData: error:   File Size: 160 bytes
+CoreData: error:   File inode: 109
+CoreData: error:   File inode: 109
+CoreData: error:   File user ID: 0
+CoreData: error:   File user ID: 0
+CoreData: error:   File group ID: 501
+CoreData: error:   File group ID: 501
+CoreData: error:   File Permissions:
+CoreData: error:   File Permissions: 	
+CoreData: error: d
+CoreData: error: d
+CoreData: error: 755
+CoreData: error: 755
+CoreData: error:   file is not a symbolic link
+CoreData: error:   file is not a symbolic link
+CoreData: error:   Sandbox access to file-write-create denied
+CoreData: error:   Sandbox access to file-write-create denied
+CoreData: error: Executing as effective user 501
+CoreData: error: Executing as effective user 501
+CoreData: error: Information for /var/mobile/Containers
+CoreData: error: Information for /var/mobile/Containers
+CoreData: error: ---------------------------
+CoreData: error: ---------------------------
+CoreData: error:   File Device ID: 0
+CoreData: error:   File Device ID: 0
+CoreData: error:   Device ID: 16777226
+CoreData: error:   Device ID: 16777226
+CoreData: error:   File Size: 160 bytes
+CoreData: error:   File Size: 160 bytes
+CoreData: error:   File inode: 38
+CoreData: error:   File inode: 38
+CoreData: error:   File user ID: 501
+CoreData: error:   File user ID: 501
+CoreData: error:   File group ID: 501
+CoreData: error:   File group ID: 501
+CoreData: error:   File Permissions:
+CoreData: error:   File Permissions: 	
+CoreData: error: d
+CoreData: error: d
+CoreData: error: 755
+CoreData: error: 755
+CoreData: error:   file is not a symbolic link
+CoreData: error:   file is not a symbolic link
+CoreData: error:   Sandbox access to file-write-create denied
+CoreData: error:   Sandbox access to file-write-create denied
+CoreData: error: Executing as effective user 501
+CoreData: error: Executing as effective user 501
+CoreData: error: Information for /var/mobile
+CoreData: error: Information for /var/mobile
+CoreData: error: ---------------------------
+CoreData: error: ---------------------------
+CoreData: error:   File Device ID: 0
+CoreData: error:   File Device ID: 0
+CoreData: error:   Device ID: 16777226
+CoreData: error:   Device ID: 16777226
+CoreData: error:   File Size: 512 bytes
+CoreData: error:   File Size: 512 bytes
+CoreData: error:   File inode: 2
+CoreData: error:   File inode: 2
+CoreData: error:   File user ID: 501
+CoreData: error:   File user ID: 501
+CoreData: error:   File group ID: 501
+CoreData: error:   File group ID: 501
+CoreData: error:   File Permissions:
+CoreData: error:   File Permissions: 	
+CoreData: error: d
+CoreData: error: d
+CoreData: error: 711
+CoreData: error: 711
+CoreData: error:   file is not a symbolic link
+CoreData: error:   file is not a symbolic link
+CoreData: error:   Sandbox access to file-write-create denied
+CoreData: error:   Sandbox access to file-write-create denied
+CoreData: error: Executing as effective user 501
+CoreData: error: Executing as effective user 501
+CoreData: error: Information for /var
+CoreData: error: Information for /var
+CoreData: error: ---------------------------
+CoreData: error: ---------------------------
+CoreData: error:   File Device ID: 0
+CoreData: error:   File Device ID: 0
+CoreData: error:   Device ID: 16777220
+CoreData: error:   Device ID: 16777220
+CoreData: error:   File Size: 1216 bytes
+CoreData: error:   File Size: 1216 bytes
+CoreData: error:   File inode: 2
+CoreData: error:   File inode: 2
+CoreData: error:   File user ID: 0
+CoreData: error:   File user ID: 0
+CoreData: error:   File group ID: 0
+CoreData: error:   File group ID: 0
+CoreData: error:   File Permissions:
+CoreData: error:   File Permissions: 	
+CoreData: error: d
+CoreData: error: d
+CoreData: error: 755
+CoreData: error: 755
+CoreData: error:   file is not a symbolic link
+CoreData: error:   file is not a symbolic link
+CoreData: error:   Sandbox access to file-write-create denied
+CoreData: error:   Sandbox access to file-write-create denied
+CoreData: error: Executing as effective user 501
+CoreData: error: Executing as effective user 501
+CoreData: error: Information for /
+CoreData: error: Information for /
+CoreData: error: ---------------------------
+CoreData: error: ---------------------------
+CoreData: error:   File Device ID: 0
+CoreData: error:   File Device ID: 0
+CoreData: error:   Device ID: 838860801
+CoreData: error:   Device ID: 838860801
+CoreData: error:   File Size: 608 bytes
+CoreData: error:   File Size: 608 bytes
+CoreData: error:   File inode: 2
+CoreData: error:   File inode: 2
+CoreData: error:   File user ID: 0
+CoreData: error:   File user ID: 0
+CoreData: error:   File group ID: 0
+CoreData: error:   File group ID: 0
+CoreData: error:   File Permissions:
+CoreData: error:   File Permissions: 	
+CoreData: error: d
+CoreData: error: d
+CoreData: error: 755
+CoreData: error: 755
+CoreData: error:   file is not a symbolic link
+CoreData: error:   file is not a symbolic link
+CoreData: error:   Sandbox access to file-write-create denied
+CoreData: error:   Sandbox access to file-write-create denied
+CoreData: error: Logging status information for directory path: /var/mobile/Containers/Data/Application/638B5A3F-EF43-4429-A03D-C9601E0F617A/Library/Application Support
+CoreData: error: Logging status information for directory path: /var/mobile/Containers/Data/Application/638B5A3F-EF43-4429-A03D-C9601E0F617A/Library/Application Support
+CoreData: error: Executing as effective user 501
+CoreData: error: Executing as effective user 501
+CoreData: error: Information for /
+CoreData: error: Information for /
+CoreData: error:   File Device ID: 0
+CoreData: error:   File Device ID: 0
+CoreData: error:   Device ID: 838860801
+CoreData: error:   Device ID: 838860801
+CoreData: error:   File Size: 608 bytes
+CoreData: error:   File Size: 608 bytes
+CoreData: error:   File inode: 2
+CoreData: error:   File inode: 2
+CoreData: error:   File user ID: 0
+CoreData: error:   File user ID: 0
+CoreData: error:   File group ID: 0
+CoreData: error:   File group ID: 0
+CoreData: error:   File Permissions:
+CoreData: error:   File Permissions: 	
+CoreData: error: d
+CoreData: error: d
+CoreData: error: 755
+CoreData: error: 755
+CoreData: error:   component is not a symbolic link
+CoreData: error:   component is not a symbolic link
+CoreData: error:   component is readable
+CoreData: error:   component is readable
+CoreData: error:   component is not writeable with errno 1
+CoreData: error:   component is not writeable with errno 1
+CoreData: error: Information for /var
+CoreData: error: Information for /var
+CoreData: error:   File Device ID: 0
+CoreData: error:   File Device ID: 0
+CoreData: error:   Device ID: 16777220
+CoreData: error:   Device ID: 16777220
+CoreData: error:   File Size: 1216 bytes
+CoreData: error:   File Size: 1216 bytes
+CoreData: error:   File inode: 2
+CoreData: error:   File inode: 2
+CoreData: error:   File user ID: 0
+CoreData: error:   File user ID: 0
+CoreData: error:   File group ID: 0
+CoreData: error:   File group ID: 0
+CoreData: error:   File Permissions:
+CoreData: error:   File Permissions: 	
+CoreData: error: d
+CoreData: error: d
+CoreData: error: 755
+CoreData: error: 755
+CoreData: error:   component is not a symbolic link
+CoreData: error:   component is not a symbolic link
+CoreData: error:   component is not readable with errno 1
+CoreData: error:   component is not readable with errno 1
+CoreData: error:   component is not writeable with errno 1
+CoreData: error:   component is not writeable with errno 1
+CoreData: error: Information for /var/mobile
+CoreData: error: Information for /var/mobile
+CoreData: error:   File Device ID: 0
+CoreData: error:   File Device ID: 0
+CoreData: error:   Device ID: 16777226
+CoreData: error:   Device ID: 16777226
+CoreData: error:   File Size: 512 bytes
+CoreData: error:   File Size: 512 bytes
+CoreData: error:   File inode: 2
+CoreData: error:   File inode: 2
+CoreData: error:   File user ID: 501
+CoreData: error:   File user ID: 501
+CoreData: error:   File group ID: 501
+CoreData: error:   File group ID: 501
+CoreData: error:   File Permissions:
+CoreData: error:   File Permissions: 	
+CoreData: error: d
+CoreData: error: d
+CoreData: error: 711
+CoreData: error: 711
+CoreData: error:   component is not a symbolic link
+CoreData: error:   component is not a symbolic link
+CoreData: error:   component is not readable with errno 1
+CoreData: error:   component is not readable with errno 1
+CoreData: error:   component is not writeable with errno 1
+CoreData: error:   component is not writeable with errno 1
+CoreData: error: Information for /var/mobile/Containers
+CoreData: error: Information for /var/mobile/Containers
+CoreData: error:   File Device ID: 0
+CoreData: error:   File Device ID: 0
+CoreData: error:   Device ID: 16777226
+CoreData: error:   Device ID: 16777226
+CoreData: error:   File Size: 160 bytes
+CoreData: error:   File Size: 160 bytes
+CoreData: error:   File inode: 38
+CoreData: error:   File inode: 38
+CoreData: error:   File user ID: 501
+CoreData: error:   File user ID: 501
+CoreData: error:   File group ID: 501
+CoreData: error:   File group ID: 501
+CoreData: error:   File Permissions:
+CoreData: error:   File Permissions: 	
+CoreData: error: d
+CoreData: error: d
+CoreData: error: 755
+CoreData: error: 755
+CoreData: error:   component is not a symbolic link
+CoreData: error:   component is not a symbolic link
+CoreData: error:   component is not readable with errno 1
+CoreData: error:   component is not readable with errno 1
+CoreData: error:   component is not writeable with errno 1
+CoreData: error:   component is not writeable with errno 1
+CoreData: error: Information for /var/mobile/Containers/Data
+CoreData: error: Information for /var/mobile/Containers/Data
+CoreData: error:   File Device ID: 0
+CoreData: error:   File Device ID: 0
+CoreData: error:   Device ID: 16777226
+CoreData: error:   Device ID: 16777226
+CoreData: error:   File Size: 160 bytes
+CoreData: error:   File Size: 160 bytes
+CoreData: error:   File inode: 109
+CoreData: error:   File inode: 109
+CoreData: error:   File user ID: 0
+CoreData: error:   File user ID: 0
+CoreData: error:   File group ID: 501
+CoreData: error:   File group ID: 501
+CoreData: error:   File Permissions:
+CoreData: error:   File Permissions: 	
+CoreData: error: d
+CoreData: error: d
+CoreData: error: 755
+CoreData: error: 755
+CoreData: error:   component is not a symbolic link
+CoreData: error:   component is not a symbolic link
+CoreData: error:   component is not readable with errno 1
+CoreData: error:   component is not readable with errno 1
+CoreData: error:   component is not writeable with errno 1
+CoreData: error:   component is not writeable with errno 1
+CoreData: error: Information for /var/mobile/Containers/Data/Application
+CoreData: error: Information for /var/mobile/Containers/Data/Application
+CoreData: error:   File Device ID: 0
+CoreData: error:   File Device ID: 0
+CoreData: error:   Device ID: 16777226
+CoreData: error:   Device ID: 16777226
+CoreData: error:   File Size: 12640 bytes
+CoreData: error:   File Size: 12640 bytes
+CoreData: error:   File inode: 110
+CoreData: error:   File inode: 110
+CoreData: error:   File user ID: 501
+CoreData: error:   File user ID: 501
+CoreData: error:   File group ID: 501
+CoreData: error:   File group ID: 501
+CoreData: error:   File Permissions:
+CoreData: error:   File Permissions: 	
+CoreData: error: d
+CoreData: error: d
+CoreData: error: 755
+CoreData: error: 755
+CoreData: error:   component is not a symbolic link
+CoreData: error:   component is not a symbolic link
+CoreData: error:   component is not readable with errno 1
+CoreData: error:   component is not readable with errno 1
+CoreData: error:   component is not writeable with errno 1
+CoreData: error:   component is not writeable with errno 1
+CoreData: error: Information for /var/mobile/Containers/Data/Application/638B5A3F-EF43-4429-A03D-C9601E0F617A
+CoreData: error: Information for /var/mobile/Containers/Data/Application/638B5A3F-EF43-4429-A03D-C9601E0F617A
+CoreData: error:   File Device ID: 0
+CoreData: error:   File Device ID: 0
+CoreData: error:   Device ID: 16777226
+CoreData: error:   Device ID: 16777226
+CoreData: error:   File Size: 224 bytes
+CoreData: error:   File Size: 224 bytes
+CoreData: error:   File inode: 85674864
+CoreData: error:   File inode: 85674864
+CoreData: error:   File user ID: 501
+CoreData: error:   File user ID: 501
+CoreData: error:   File group ID: 501
+CoreData: error:   File group ID: 501
+CoreData: error:   File Permissions:
+CoreData: error:   File Permissions: 	
+CoreData: error: d
+CoreData: error: d
+CoreData: error: 755
+CoreData: error: 755
+CoreData: error:   component is not a symbolic link
+CoreData: error:   component is not a symbolic link
+CoreData: error:   component is readable
+CoreData: error:   component is readable
+CoreData: error:   component is not writeable with errno 1
+CoreData: error:   component is not writeable with errno 1
+CoreData: error: Information for /var/mobile/Containers/Data/Application/638B5A3F-EF43-4429-A03D-C9601E0F617A/Library
+CoreData: error: Information for /var/mobile/Containers/Data/Application/638B5A3F-EF43-4429-A03D-C9601E0F617A/Library
+CoreData: error:   File Device ID: 0
+CoreData: error:   File Device ID: 0
+CoreData: error:   Device ID: 16777226
+CoreData: error:   Device ID: 16777226
+CoreData: error:   File Size: 192 bytes
+CoreData: error:   File Size: 192 bytes
+CoreData: error:   File inode: 85674866
+CoreData: error:   File inode: 85674866
+CoreData: error:   File user ID: 501
+CoreData: error:   File user ID: 501
+CoreData: error:   File group ID: 501
+CoreData: error:   File group ID: 501
+CoreData: error:   File Permissions:
+CoreData: error:   File Permissions: 	
+CoreData: error: d
+CoreData: error: d
+CoreData: error: 755
+CoreData: error: 755
+CoreData: error:   component is not a symbolic link
+CoreData: error:   component is not a symbolic link
+CoreData: error:   component is readable
+CoreData: error:   component is readable
+CoreData: error:   component is writeable
+CoreData: error:   component is writeable
+CoreData: error: Failed to stat path '/var/mobile/Containers/Data/Application/638B5A3F-EF43-4429-A03D-C9601E0F617A/Library/Application Support', errno 2 / No such file or directory.
+CoreData: error: Failed to stat path '/var/mobile/Containers/Data/Application/638B5A3F-EF43-4429-A03D-C9601E0F617A/Library/Application Support', errno 2 / No such file or directory.
+CoreData: error:   Sandbox access to file-write-create denied
+CoreData: error:   Sandbox access to file-write-create denied
+CoreData: error: addPersistentStoreWithType:configuration:URL:options:error: returned error NSCocoaErrorDomain (512)
+CoreData: error: addPersistentStoreWithType:configuration:URL:options:error: returned error NSCocoaErrorDomain (512)
+CoreData: error: userInfo:
+CoreData: error: userInfo:
+CoreData: error: 	reason : Failed to create file; code = 2
+CoreData: error: 	reason : Failed to create file; code = 2
+CoreData: error: storeType: SQLite
+CoreData: error: storeType: SQLite
+CoreData: error: configuration: default
+CoreData: error: configuration: default
+CoreData: error: URL: file: ///var/mobile/Containers/Data/Application/638B5A3F-EF43-4429-A03D-C9601E0F617A/Library/Application%20Support/default.store
+CoreData: error: URL: file: ///var/mobile/Containers/Data/Application/638B5A3F-EF43-4429-A03D-C9601E0F617A/Library/Application%20Support/default.store
+CoreData: annotation: options:
+CoreData: annotation: 	NSMigratePersistentStoresAutomaticallyOption : 1
+CoreData: annotation: 	NSInferMappingModelAutomaticallyOption : 1
+CoreData: annotation: 	NSPersistentStoreRemoteChangeNotificationOptionKey : 1
+CoreData: annotation: 	NSPersistentHistoryTrackingKey : 1
+CoreData: error: <NSPersistentStoreCoordinator: 0x146033c80>: Attempting recovery from error encountered during addPersistentStore: 0x1462b2010 Error Domain=NSCocoaErrorDomain Code=512 "The file couldn’t be saved." UserInfo={reason=Failed to create file; code = 2
+}
+CoreData: error: <NSPersistentStoreCoordinator: 0x146033c80>: Attempting recovery from error encountered during addPersistentStore: 0x1462b2010 Error Domain=NSCocoaErrorDomain Code=512 "The file couldn’t be saved." UserInfo={reason=Failed to create file; code = 2
+}
+CoreData: error: During recovery, parent directory path reported as missing
+CoreData: error: During recovery, parent directory path reported as missing
+CoreData: error: Recovery attempt while adding <NSPersistentStoreDescription: 0x1462b2010> (type: SQLite, url: file: ///var/mobile/Containers/Data/Application/638B5A3F-EF43-4429-A03D-C9601E0F617A/Library/Application%20Support/default.store) was successful!
+CoreData: error: Recovery attempt while adding <NSPersistentStoreDescription: 0x1462b2010> (type: SQLite, url: file: ///var/mobile/Containers/Data/Application/638B5A3F-EF43-4429-A03D-C9601E0F617A/Library/Application%20Support/default.store) was successful!
+[BackupService
+] Backup saved: /var/mobile/Containers/Data/Application/638B5A3F-EF43-4429-A03D-C9601E0F617A/Documents/panini-backup.json
+[BackupService
+] Backup saved: /var/mobile/Containers/Data/Application/638B5A3F-EF43-4429-A03D-C9601E0F617A/Documents/panini-backup.json
+[BackupService
+] Backup saved: /var/mobile/Containers/Data/Application/638B5A3F-EF43-4429-A03D-C9601E0F617A/Documents/panini-backup.json
+[BackupService
+] Backup saved: /var/mobile/Containers/Data/Application/638B5A3F-EF43-4429-A03D-C9601E0F617A/Documents/panini-backup.json
+Failed to request default share mode for fileURL:file: ///var/mobile/Containers/Data/Application/638B5A3F-EF43-4429-A03D-C9601E0F617A/Documents/panini-backup.json error:Error Domain=NSOSStatusErrorDomain Code=-10814 "(null)" UserInfo={_LSFile=LSBindingEvaluator.mm, _LSLine=1973, _LSFunction=runEvaluator}
+Only support loading options for CKShare and SWY types.
+error fetching item for URL:file: ///var/mobile/Containers/Data/Application/638B5A3F-EF43-4429-A03D-C9601E0F617A/Documents/panini-backup.json : Error Domain=NSCocoaErrorDomain Code=256 "The file couldn’t be opened."
+error fetching item for URL:file: ///var/mobile/Containers/Data/Application/638B5A3F-EF43-4429-A03D-C9601E0F617A/Documents/panini-backup.json : Error Domain=NSCocoaErrorDomain Code=256 "The file couldn’t be opened."
+Reading from public effective user settings.
+Failed to locate container app bundle record. The process may not be entitled to access the LaunchServices database or the app may have moved.
+could not find answer for domain 8: Error Domain=NSOSStatusErrorDomain Code=-54 "com.apple.private.coreservices.canmaplsdatabase" UserInfo={_LSLine=1104, _LSFunction=-[_LSDReadClient getEligibilityAnswerForDomain:withCompletionHandler:
+    ], _LSFile=LSDReadService.mm, NSDebugDescription=com.apple.private.coreservices.canmaplsdatabase
+}
+Couldn't get answer for domain 8: Error Domain=NSOSStatusErrorDomain Code=-54 "com.apple.private.coreservices.canmaplsdatabase" UserInfo={_LSLine=1104, _LSFunction=-[_LSDReadClient getEligibilityAnswerForDomain:withCompletionHandler:
+    ], _LSFile=LSDReadService.mm, NSDebugDescription=com.apple.private.coreservices.canmaplsdatabase
+}
+Reading from public effective user settings.
+could not find answer for domain 8: Error Domain=NSOSStatusErrorDomain Code=-54 "com.apple.private.coreservices.canmaplsdatabase" UserInfo={_LSLine=1104, _LSFunction=-[_LSDReadClient getEligibilityAnswerForDomain:withCompletionHandler:
+    ], _LSFile=LSDReadService.mm, NSDebugDescription=com.apple.private.coreservices.canmaplsdatabase
+}
+Couldn't get answer for domain 8: Error Domain=NSOSStatusErrorDomain Code=-54 "com.apple.private.coreservices.canmaplsdatabase" UserInfo={_LSLine=1104, _LSFunction=-[_LSDReadClient getEligibilityAnswerForDomain:withCompletionHandler:
+    ], _LSFile=LSDReadService.mm, NSDebugDescription=com.apple.private.coreservices.canmaplsdatabase
+}
+<0x1461b61c0> Gesture: System gesture gate timed out.
+59638328 Plugin query method called
+(501) Invalidation handler invoked, clearing connection
+(501) personaAttributesForPersonaType for type: 0 failed with error Error Domain=NSCocoaErrorDomain Code=4099 "The connection to service named com.apple.mobile.usermanagerd.xpc was invalidated from this process." UserInfo={NSDebugDescription=The connection to service named com.apple.mobile.usermanagerd.xpc was invalidated from this process.
+}
+LaunchServices: store (null) or url (null) was nil: Error Domain=NSOSStatusErrorDomain Code=-54 "process may not map database" UserInfo={_LSLine=75, _LSFunction=_LSServer_GetServerStoreForConnectionWithCompletionHandler, _LSFile=LSDReadService.mm, NSDebugDescription=process may not map database
+}
+Attempt to map database failed: permission was denied. This attempt will not be retried.
+Failed to initialize client context with error Error Domain=NSOSStatusErrorDomain Code=-54 "process may not map database" UserInfo={_LSLine=75, _LSFunction=_LSServer_GetServerStoreForConnectionWithCompletionHandler, _LSFile=LSDReadService.mm, NSDebugDescription=process may not map database
+}
+LaunchServices: store (null) or url (null) was nil: Error Domain=NSOSStatusErrorDomain Code=-54 "process may not map database" UserInfo={_LSLine=75, _LSFunction=_LSServer_GetServerStoreForConnectionWithCompletionHandler, _LSFile=LSDReadService.mm, NSDebugDescription=process may not map database
+}
+Attempt to map database failed: permission was denied. This attempt will not be retried.
+Failed to initialize client context with error Error Domain=NSOSStatusErrorDomain Code=-54 "process may not map database" UserInfo={_LSLine=75, _LSFunction=_LSServer_GetServerStoreForConnectionWithCompletionHandler, _LSFile=LSDReadService.mm, NSDebugDescription=process may not map database
+}
+LaunchServices: store (null) or url (null) was nil: Error Domain=NSOSStatusErrorDomain Code=-54 "process may not map database" UserInfo={_LSLine=75, _LSFunction=_LSServer_GetServerStoreForConnectionWithCompletionHandler, _LSFile=LSDReadService.mm, NSDebugDescription=process may not map database
+}
+Attempt to map database failed: permission was denied. This attempt will not be retried.
+Failed to initialize client context with error Error Domain=NSOSStatusErrorDomain Code=-54 "process may not map database" UserInfo={_LSLine=75, _LSFunction=_LSServer_GetServerStoreForConnectionWithCompletionHandler, _LSFile=LSDReadService.mm, NSDebugDescription=process may not map database
+}
+AFIsDeviceGreymatterEligible Missing entitlements for os_eligibility lookup
+"Error returned from daemon: Error Domain=com.apple.accounts Code=9 "(null)""
+Could not fetch accounts of type IDMS (com.apple.account.idms) due to Error Domain=com.apple.accounts Code=9 "(null)"
+-[AFAuthKitManager currentAccountType
+] [AFAuthKitManager
+] Error getting primary account: Error Domain=com.apple.accounts Code=9 "(null)" - returning Unknown
+Error returned from iconservicesagent image request: <ISBundleIdentifierIcon 0x147385cc0>BundleID: net.whatsapp.WhatsApp.ShareExtension digest: 9964A069-484A-38FB-AE60-4BD78943C626 - <ISImageDescriptor: 0x1463014a0> (64.00,
+64.00)@3x v: 4 l: 5 a: 0: 0: 0: 0 t: 0: 0: 0: 0 s: 2 ps: 0 digest: 32AFEB06-1183-3764-B197-7B175B199D11 error: Error Domain=NSOSStatusErrorDomain Code=-609 "Client is disallowed from making such an icon request" UserInfo={NSLocalizedDescription=Client is disallowed from making such an icon request
+}
+fence tx observer fd23 timed out after 0.600000
+=== ALBUM STATE DUMP ===
+{
+    "recordCount": 48,
+    "records": [
+        {
+            "countryCode": "ALG",
+            "missingNumbers": [
+                2,
+                3,
+                7,
+                9,
+                10,
+                12,
+                16,
+                17,
+                18
+            ]
+        },
+        {
+            "countryCode": "ARG",
+            "missingNumbers": [
+                5,
+                9,
+                10,
+                15,
+                17,
+                19
+            ]
+        },
+        {
+            "countryCode": "AUS",
+            "missingNumbers": [
+                6,
+                7,
+                8,
+                12,
+                13,
+                15,
+                17,
+                19
+            ]
+        },
+        {
+            "countryCode": "AUT",
+            "missingNumbers": [
+                3,
+                10,
+                12,
+                14
+            ]
+        },
+        {
+            "countryCode": "BEL",
+            "missingNumbers": [
+                4,
+                6,
+                7,
+                10,
+                14,
+                16,
+                17,
+                18,
+                19
+            ]
+        },
+        {
+            "countryCode": "BIH",
+            "missingNumbers": [
+                3,
+                7,
+                11,
+                18
+            ]
+        },
+        {
+            "countryCode": "BRA",
+            "missingNumbers": [
+                6,
+                8,
+                13,
+                15,
+                18,
+                20
+            ]
+        },
+        {
+            "countryCode": "CAN",
+            "missingNumbers": [
+                2,
+                5,
+                8,
+                10,
+                12,
+                13,
+                19
+            ]
+        },
+        {
+            "countryCode": "CIV",
+            "missingNumbers": [
+                5,
+                7,
+                10,
+                12,
+                14,
+                18,
+                19
+            ]
+        },
+        {
+            "countryCode": "COD",
+            "missingNumbers": [
+                1,
+                5,
+                8,
+                16,
+                18
+            ]
+        },
+        {
+            "countryCode": "COL",
+            "missingNumbers": [
+                1,
+                10,
+                13,
+                19
+            ]
+        },
+        {
+            "countryCode": "CPV",
+            "missingNumbers": [
+                4,
+                6,
+                9,
+                10,
+                14,
+                15,
+                19
+            ]
+        },
+        {
+            "countryCode": "CRO",
+            "missingNumbers": [
+                3,
+                7,
+                9,
+                10,
+                16
+            ]
+        },
+        {
+            "countryCode": "CUW",
+            "missingNumbers": [
+                1,
+                2,
+                3,
+                7,
+                9,
+                13,
+                16,
+                17,
+                20
+            ]
+        },
+        {
+            "countryCode": "CZE",
+            "missingNumbers": [
+                2,
+                9,
+                16,
+                17,
+                20
+            ]
+        },
+        {
+            "countryCode": "ECU",
+            "missingNumbers": [
+                3,
+                5,
+                6,
+                10,
+                16,
+                18,
+                19
+            ]
+        },
+        {
+            "countryCode": "EGY",
+            "missingNumbers": [
+                4,
+                7,
+                16,
+                18,
+                19
+            ]
+        },
+        {
+            "countryCode": "ENG",
+            "missingNumbers": [
+                1,
+                3,
+                5,
+                12,
+                14,
+                15,
+                17
+            ]
+        },
+        {
+            "countryCode": "ESP",
+            "missingNumbers": [
+                1,
+                3,
+                4,
+                5,
+                6,
+                10,
+                18
+            ]
+        },
+        {
+            "countryCode": "FRA",
+            "missingNumbers": [
+                1,
+                3,
+                12,
+                16,
+                20
+            ]
+        },
+        {
+            "countryCode": "GER",
+            "missingNumbers": [
+                2,
+                6,
+                7,
+                12,
+                13,
+                16,
+                20
+            ]
+        },
+        {
+            "countryCode": "GHA",
+            "missingNumbers": [
+                2,
+                5,
+                7,
+                18
+            ]
+        },
+        {
+            "countryCode": "HAI",
+            "missingNumbers": [
+                2,
+                7,
+                8,
+                17
+            ]
+        },
+        {
+            "countryCode": "IRN",
+            "missingNumbers": [
+                2,
+                3,
+                4,
+                8,
+                9,
+                11,
+                17,
+                18
+            ]
+        },
+        {
+            "countryCode": "IRQ",
+            "missingNumbers": [
+                1,
+                12,
+                16,
+                19,
+                20
+            ]
+        },
+        {
+            "countryCode": "JOR",
+            "missingNumbers": [
+                2,
+                3,
+                9,
+                11,
+                14,
+                17
+            ]
+        },
+        {
+            "countryCode": "JPN",
+            "missingNumbers": [
+                2,
+                3,
+                6,
+                8,
+                11,
+                14,
+                16,
+                18,
+                19
+            ]
+        },
+        {
+            "countryCode": "KOR",
+            "missingNumbers": [
+                2,
+                4,
+                6,
+                9,
+                10,
+                11,
+                13,
+                17,
+                19
+            ]
+        },
+        {
+            "countryCode": "KSA",
+            "missingNumbers": [
+                3,
+                5,
+                8,
+                19,
+                20
+            ]
+        },
+        {
+            "countryCode": "MAR",
+            "missingNumbers": [
+                4,
+                5,
+                6,
+                10,
+                11,
+                17,
+                19,
+                20
+            ]
+        },
+        {
+            "countryCode": "MEX",
+            "missingNumbers": [
+                4,
+                8,
+                10,
+                15,
+                17
+            ]
+        },
+        {
+            "countryCode": "NED",
+            "missingNumbers": [
+                4,
+                5,
+                9,
+                12,
+                17,
+                18,
+                20
+            ]
+        },
+        {
+            "countryCode": "NOR",
+            "missingNumbers": [
+                2,
+                7,
+                8,
+                9,
+                10,
+                12,
+                13
+            ]
+        },
+        {
+            "countryCode": "NZL",
+            "missingNumbers": [
+                1,
+                3,
+                7,
+                17,
+                19,
+                20
+            ]
+        },
+        {
+            "countryCode": "PAN",
+            "missingNumbers": [
+                5,
+                6,
+                9,
+                16,
+                19
+            ]
+        },
+        {
+            "countryCode": "PAR",
+            "missingNumbers": [
+                6,
+                7,
+                8,
+                9,
+                10,
+                17,
+                20
+            ]
+        },
+        {
+            "countryCode": "POR",
+            "missingNumbers": [
+                3,
+                4,
+                7,
+                9,
+                11,
+                13,
+                15,
+                16
+            ]
+        },
+        {
+            "countryCode": "QAT",
+            "missingNumbers": [
+                3,
+                7,
+                9,
+                10,
+                14,
+                15,
+                18
+            ]
+        },
+        {
+            "countryCode": "RSA",
+            "missingNumbers": [
+                2,
+                3,
+                8,
+                14,
+                15,
+                17,
+                18,
+                19
+            ]
+        },
+        {
+            "countryCode": "SCO",
+            "missingNumbers": [
+                6,
+                11,
+                12,
+                14,
+                17,
+                19
+            ]
+        },
+        {
+            "countryCode": "SEN",
+            "missingNumbers": [
+                1,
+                2,
+                4,
+                10,
+                14,
+                17,
+                20
+            ]
+        },
+        {
+            "countryCode": "SUI",
+            "missingNumbers": [
+                3,
+                12,
+                18,
+                19,
+                20
+            ]
+        },
+        {
+            "countryCode": "SWE",
+            "missingNumbers": [
+                1,
+                5,
+                14,
+                18,
+                20
+            ]
+        },
+        {
+            "countryCode": "TUN",
+            "missingNumbers": [
+                2,
+                5,
+                7,
+                8,
+                17,
+                18
+            ]
+        },
+        {
+            "countryCode": "TUR",
+            "missingNumbers": [
+                4,
+                17,
+                19,
+                20
+            ]
+        },
+        {
+            "countryCode": "URU",
+            "missingNumbers": [
+                2,
+                4,
+                7,
+                10,
+                11,
+                12,
+                16,
+                17,
+                19
+            ]
+        },
+        {
+            "countryCode": "USA",
+            "missingNumbers": [
+                1,
+                6,
+                7,
+                8,
+                10,
+                11,
+                12,
+                17
+            ]
+        },
+        {
+            "countryCode": "UZB",
+            "missingNumbers": [
+                4,
+                8,
+                9,
+                11,
+                18
+            ]
+        }
+    ],
+    "totalMissing": 306
+}
+========================
