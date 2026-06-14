@@ -5,6 +5,7 @@ struct MissingStickersView: View {
     @Query private var states: [CountryMissingState]
     @AppStorage("albumSetupCompleted") private var setupCompleted: Bool = false
     @Environment(\.modelContext) private var modelContext
+    @State private var shareURL: URL? = nil
 
     // Countries in album order that have at least one missing sticker.
     private var missingGroups: [(country: Country, numbers: [Int])] {
@@ -28,6 +29,20 @@ struct MissingStickersView: View {
             }
             .navigationTitle("Missing Stickers")
             .navigationBarTitleDisplayMode(.large)
+            .toolbar {
+                if setupCompleted && !missingGroups.isEmpty {
+                    ToolbarItem(placement: .topBarTrailing) {
+                        Button {
+                            shareURL = exportMissing()
+                        } label: {
+                            Label("Export", systemImage: "square.and.arrow.up")
+                        }
+                    }
+                }
+            }
+            .sheet(item: $shareURL) { url in
+                ShareSheet(url: url).ignoresSafeArea()
+            }
         }
     }
 
@@ -99,6 +114,30 @@ struct MissingStickersView: View {
 
     // MARK: - Country section
 
+    // MARK: - Export
+
+    private func exportMissing() -> URL? {
+        let entries = missingGroups.map {
+            MissingExportCountry(
+                countryCode: $0.country.code,
+                countryName: $0.country.name,
+                page: $0.country.page,
+                missingNumbers: $0.numbers
+            )
+        }
+        let payload = MissingExportPayload(
+            version: 1,
+            source: "missing-stickers",
+            exportDate: ISO8601DateFormatter().string(from: Date()),
+            totalMissing: entries.reduce(0) { $0 + $1.missingNumbers.count },
+            countries: entries
+        )
+        let url = URL.documentsDirectory.appendingPathComponent("missing-stickers-export.json")
+        guard let data = try? JSONEncoder.missingExport.encode(payload),
+              (try? data.write(to: url, options: .atomic)) != nil else { return nil }
+        return url
+    }
+
     private func markFound(country: Country, number: Int) {
         AlbumStateService.markFound(countryCode: country.code, number: number, context: modelContext)
         let fresh = (try? modelContext.fetch(FetchDescriptor<CountryMissingState>())) ?? []
@@ -143,6 +182,31 @@ struct MissingStickersView: View {
             .padding(.vertical, 4)
         }
     }
+}
+
+// MARK: - Export models (private to this file)
+
+private struct MissingExportPayload: Encodable {
+    let version: Int
+    let source: String
+    let exportDate: String
+    let totalMissing: Int
+    let countries: [MissingExportCountry]
+}
+
+private struct MissingExportCountry: Encodable {
+    let countryCode: String
+    let countryName: String
+    let page: Int
+    let missingNumbers: [Int]
+}
+
+private extension JSONEncoder {
+    static let missingExport: JSONEncoder = {
+        let e = JSONEncoder()
+        e.outputFormatting = [.prettyPrinted, .sortedKeys]
+        return e
+    }()
 }
 
 #Preview {

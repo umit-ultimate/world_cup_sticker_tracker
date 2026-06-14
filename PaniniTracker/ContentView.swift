@@ -20,10 +20,8 @@ struct ContentView: View {
 
     @State private var showingScanBasket = false
 
-    #if DEBUG
     @State private var showingOCRTest = false
     @State private var showingLiveScanner = false
-    #endif
 
     @Environment(\.modelContext) private var modelContext
 
@@ -113,14 +111,12 @@ struct ContentView: View {
             .sheet(isPresented: $showingScanBasket) {
                 ScanBasketView()
             }
-            #if DEBUG
             .sheet(isPresented: $showingOCRTest) {
                 OCRTestView()
             }
             .fullScreenCover(isPresented: $showingLiveScanner) {
                 LiveScannerView()
             }
-            #endif
         }
     }
 
@@ -275,6 +271,7 @@ struct ContentView: View {
             }
             .buttonStyle(.bordered)
             .tint(.purple)
+            #endif
 
             Button {
                 showingOCRTest = true
@@ -293,7 +290,6 @@ struct ContentView: View {
             }
             .buttonStyle(.bordered)
             .tint(.mint)
-            #endif
         }
     }
 
