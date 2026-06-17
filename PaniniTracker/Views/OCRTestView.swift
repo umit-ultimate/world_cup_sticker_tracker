@@ -109,6 +109,11 @@ struct OCRTestView: View {
                             Text("Sticker: \(code.number)")
                                 .font(.system(.subheadline, design: .monospaced))
                                 .foregroundStyle(.secondary)
+                            if let from = code.normalizedFrom {
+                                Text("OCR read \"\(from)\" \u{2192} corrected to \(code.countryCode)")
+                                    .font(.caption2)
+                                    .foregroundStyle(.orange)
+                            }
                         }
                         Spacer()
                         Text(code.display)

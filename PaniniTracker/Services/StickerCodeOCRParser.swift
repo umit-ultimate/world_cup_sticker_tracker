@@ -16,8 +16,16 @@ struct StickerCodeOCRParser {
         let countryCode: String   // normalized uppercase
         let number: Int
         let rawMatch: String      // the exact substring matched
+        let normalizedFrom: String?  // original raw code if normalization was applied
         var id: String { "\(countryCode)-\(number)" }
         var display: String { String(format: "%@ %02d", countryCode, number) }
+
+        init(countryCode: String, number: Int, rawMatch: String, normalizedFrom: String? = nil) {
+            self.countryCode = countryCode
+            self.number = number
+            self.rawMatch = rawMatch
+            self.normalizedFrom = normalizedFrom
+        }
     }
 
     // Matches a 2-4 letter run, an optional single space/-/_ separator, then 1-3 digits.
@@ -59,6 +67,37 @@ struct StickerCodeOCRParser {
         )
     }
 
+    // MARK: - Normalization layer
+
+    // Conservative OCR-error corrections for visually similar characters.
+    // Only applied when the corrected code is a known catalog country — this
+    // prevents spurious matches from unrelated OCR noise.
+    //
+    // Substitutions cover the most common confusions on Panini sticker fonts:
+    //   0 ↔ O (zero vs letter O), 1 ↔ I (one vs letter I), Q misread via rounded top
+    private static let normalizations: [String: String] = [
+        "IR0": "IRQ",   // 0 misread as Q
+        "IRO": "IRQ",   // O misread as Q
+        "1RQ": "IRQ",   // 1 misread as I
+        "OAT": "QAT",   // O misread as Q
+        "0AT": "QAT",   // 0 misread as Q
+    ]
+
+    // Applies normalization to a parsed code if the raw country code has a known OCR
+    // misread mapping AND the correction exists in the catalog.
+    // Returns an updated ParsedCode with `normalizedFrom` set if corrected, else unchanged.
+    static func applyNormalization(to code: ParsedCode, catalog: [String: Int]) -> ParsedCode {
+        let upper = code.countryCode
+        if catalog[upper] != nil { return code }  // already valid, no correction needed
+        guard let fixed = normalizations[upper], catalog[fixed] != nil else { return code }
+        return ParsedCode(
+            countryCode: fixed,
+            number: code.number,
+            rawMatch: code.rawMatch,
+            normalizedFrom: upper
+        )
+    }
+
     // MARK: - Validation layer
 
     // Why a candidate was rejected during validation.
@@ -94,12 +133,13 @@ struct StickerCodeOCRParser {
     // Parses OCR lines (each carrying its own confidence) and keeps only candidates
     // that are real album stickers above the confidence threshold.
     //
-    // A candidate is accepted only if ALL hold:
-    //   1. confidence >= minConfidence
-    //   2. countryCode exists in `countries`
-    //   3. 1 <= number <= that country's stickerCount
+    // Pipeline per candidate:
+    //   1. Confidence gate
+    //   2. Normalization (IRO → IRQ, OAT → QAT, etc.)
+    //   3. Country must exist in catalog
+    //   4. Number must be in 1...stickerCount
     //
-    // Checks run in order, so each rejected candidate reports its first failing reason.
+    // Checks run in order; each rejected candidate reports its first failing reason.
     func validate(
         lines: [(text: String, confidence: Float)],
         countries: [Country],
@@ -113,22 +153,25 @@ struct StickerCodeOCRParser {
         var rejected: [RejectedCandidate] = []
 
         for line in lines {
-            for code in parseLine(line.text) {
+            for rawCode in parseLine(line.text) {
                 // 1. Confidence gate
                 if line.confidence < minConfidence {
-                    addRejected(RejectedCandidate(parsed: code, confidence: line.confidence,
+                    addRejected(RejectedCandidate(parsed: rawCode, confidence: line.confidence,
                                                   reason: .lowConfidence(line.confidence)),
                                 into: &rejected, seen: &rejectedSeen)
                     continue
                 }
-                // 2. Country must exist
+                // 2. Normalization (only fires when raw code not in catalog)
+                let code = Self.applyNormalization(to: rawCode, catalog: catalog)
+
+                // 3. Country must exist
                 guard let stickerCount = catalog[code.countryCode] else {
                     addRejected(RejectedCandidate(parsed: code, confidence: line.confidence,
                                                   reason: .unknownCountry(code.countryCode)),
                                 into: &rejected, seen: &rejectedSeen)
                     continue
                 }
-                // 3. Number must be in range
+                // 4. Number must be in range
                 guard code.number >= 1, code.number <= stickerCount else {
                     addRejected(RejectedCandidate(parsed: code, confidence: line.confidence,
                                                   reason: .numberOutOfRange(number: code.number, max: stickerCount)),

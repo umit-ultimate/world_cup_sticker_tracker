@@ -112,6 +112,8 @@ extension ScannerCameraController {
         request.recognitionLevel = .accurate
         request.usesLanguageCorrection = false   // codes aren't dictionary words
         request.recognitionLanguages = ["en-US"]
+        // Hint Vision toward country codes so the recognizer treats them as valid tokens.
+        request.customWords = AlbumDataService.shared.countries.map { $0.code }
 
         do {
             // Back camera in portrait → frames need .right orientation.

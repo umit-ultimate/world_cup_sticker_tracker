@@ -1,4 +1,6 @@
 [
+  { "id": "fwc", "code": "FWC", "name": "FIFA World Cup", "page": 1,   "group": "Special", "stickerCount": 20 },
+
   { "id": "mex", "code": "MEX", "name": "Mexico",             "page": 8,   "group": "A", "stickerCount": 20 },
   { "id": "rsa", "code": "RSA", "name": "South Africa",       "page": 10,  "group": "A", "stickerCount": 20 },
   { "id": "kor", "code": "KOR", "name": "Korea Republic",     "page": 12,  "group": "A", "stickerCount": 20 },

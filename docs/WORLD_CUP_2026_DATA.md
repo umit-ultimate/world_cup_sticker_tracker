@@ -49,4 +49,4 @@ json [   { "id": "mex", "code": "MEX", "name": "Mexico", "page": 8, "group": "A"
 
 - The album mentions that final data may depend on qualified teams and play-offs.
 - If the physical album changes or later pages reveal exceptions, this file must be updated.
-- Current model assumes each country has 20 stickers.
+- Current model assumes each country has 20 stickers.xs
